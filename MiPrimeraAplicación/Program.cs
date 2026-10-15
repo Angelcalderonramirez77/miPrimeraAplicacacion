@@ -17,7 +17,7 @@ namespace MiPrimeraAplicación
             Console.Write("Ingresa tu nombre: ");
              nombre = Console.ReadLine();
 
-            Console.Write("Ingresa tu profesión: ");
+            Console.Write("Ingresa la carrera o tu profesión: ");
              profesion = Console.ReadLine();
 
             Console.Write("motivo por el que estudia programación: ");
