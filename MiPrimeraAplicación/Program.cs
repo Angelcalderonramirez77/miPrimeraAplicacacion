@@ -12,6 +12,8 @@ namespace MiPrimeraAplicación
         {
             string nombre, profesion, motivo;
 
+            byte edad, actualYear , nacimientoYear; ;
+            
             Console.Write("Ingresa tu nombre: ");
              nombre = Console.ReadLine();
 
@@ -23,7 +25,8 @@ namespace MiPrimeraAplicación
 
             Console.Write("\n");
 
-            Console.WriteLine($"Bienvenido Sr (a) {nombre} al curso de desarrollo de aplicaciones mi profesion es {profesion} , mi motivo es {motivo} ");
+            Console.WriteLine($"Bienvenido Sr (a) {nombre} al curso de desarrollo de aplicaciones mi " +
+                $"profesion es {profesion} , mi motivo es {motivo} ");
 
             Console.ReadLine();
         }
